@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 
 import BreadcrumbJsonLd from "@/components/seo/BreadcrumbJsonLd";
+import CourseJsonLd from "@/components/seo/CourseJsonLd";
 
 type Props = {
   params: Promise<{

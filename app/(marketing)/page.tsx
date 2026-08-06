@@ -1,24 +1,13 @@
-import Navbar from "@/components/Navbar";
-import Hero from "@/components/sections/Hero";
-
-import Features from "@/components/Features";
-import Courses from "@/components/Courses";
-import Stats from "@/components/Stats";
-import Testimonials from "@/components/Testimonials";
-import CTA from "@/components/CTA";
-import Footer from "@/components/Footer";
-
-export default function Home() {
+export default function WishlistPage() {
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <Features />
-      <Courses />
-      <Stats />
-      <Testimonials />
-      <CTA />
-      <Footer />
-    </>
+    <main className="mx-auto max-w-7xl px-6 py-20">
+      <h1 className="text-4xl font-bold">
+        Wishlist
+      </h1>
+
+      <p className="mt-4 text-muted-foreground">
+        Your saved courses will appear here.
+      </p>
+    </main>
   );
 }
